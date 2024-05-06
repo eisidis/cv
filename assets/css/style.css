@@ -1,0 +1,36 @@
+.section {
+    background-color: rgb(221, 216, 216);
+}
+
+.section {
+    width: 50rem;
+    display: flex;
+}
+
+.bloc1 {
+    margin-right: 15px;
+}
+
+.bloc2 {
+    width: 100%;
+    background-color: rgb(77, 75, 75);
+    color: rgb(250, 246, 246);
+    padding: 5px;
+}
+
+.formation > li {
+    padding-bottom: 10px;
+}
+
+ul {
+    padding: 25px;
+}
+
+li {
+    list-style-type: none;
+    }
+
+h2 {
+    display: flex;
+    justify-content: center;
+}
