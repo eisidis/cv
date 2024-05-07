@@ -1,36 +1,53 @@
-.section {
-    background-color: rgb(221, 216, 216);
+body {
+    background-color: #222438;
+
 }
 
-.section {
-    width: 50rem;
+.all {
     display: flex;
+    justify-content: center;
+    color: #e9e9e9;
 }
 
-.bloc1 {
-    margin-right: 15px;
+.about, .nom {
+    color: #6DC7AF;
 }
 
-.bloc2 {
+.bloc1 > div {
+    text-align: center;
+}
+
+.social-media {
+    margin-bottom: .5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bandeau {
     width: 100%;
-    background-color: rgb(77, 75, 75);
-    color: rgb(250, 246, 246);
-    padding: 5px;
+    height: 7rem;
+    background: linear-gradient(to right, #294c42 30%, #6DC7AF);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.formation > li {
-    padding-bottom: 10px;
+.bandeau img {
+    margin: 0 7rem;
+}
+
+.personal {
+    height: 5rem;
 }
 
 ul {
-    padding: 25px;
+    font-size: 25px;
+    list-style-type: none;
+    color: #e9e9e9;
 }
 
-li {
-    list-style-type: none;
+@media screen and (max-width: 600px) {
+    .bandeau img {
+        margin: 1rem;
     }
-
-h2 {
-    display: flex;
-    justify-content: center;
 }
